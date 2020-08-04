@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     array = self.split(" ")
-    binding.pry
+    #binding.pry
     array.find_all do |index|
       index.include?("!" || "?" || ".")
     end
