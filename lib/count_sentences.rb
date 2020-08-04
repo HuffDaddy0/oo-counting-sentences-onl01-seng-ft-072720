@@ -20,6 +20,6 @@ class String
     self.delete_if do |index|
       index.length <= 1
     end
-    array.length
+    self.length
   end
 end
