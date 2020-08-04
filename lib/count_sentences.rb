@@ -21,6 +21,6 @@ class String
       binding.pry
       index.include?("!" || "?" || ".")
     end
-    array.length
+    array2.length
   end
 end
