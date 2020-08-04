@@ -18,7 +18,7 @@ class String
     array = self.split(" ")
     #binding.pry
     array.find_all do |index|
-      binding.pry
+      #binding.pry
       index.include?("!") || index.include?("?") || index.include?(".")
     end
     array.length
