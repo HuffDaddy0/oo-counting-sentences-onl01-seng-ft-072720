@@ -19,7 +19,7 @@ class String
     #binding.pry
     array2 = array.find_all do |index|
       binding.pry
-      index.include?("!" || "?" || ".")
+      index.include?("!") || index.include?("?") || index.include?(".")
     end
     array2.length
   end
