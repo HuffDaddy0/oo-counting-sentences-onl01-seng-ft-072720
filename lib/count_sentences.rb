@@ -15,11 +15,11 @@ class String
   end
 
   def count_sentences
-    arrray = self.split(".")
+    array = self.split(".")
     binding.pry
     self.delete_if do |index|
       index.length <= 1
     end
-    self.length
+    array.length
   end
 end
