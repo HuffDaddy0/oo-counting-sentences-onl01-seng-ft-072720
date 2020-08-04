@@ -18,6 +18,7 @@ class String
     array = self.split("!", "?", "!")
     array.delete_if do |index|
       index.length == 1
+    end
     array.length
   end
 end
